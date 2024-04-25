@@ -11,5 +11,6 @@ CREATE TABLE [dbo].[CustomerData2] (
 	[ContinentName] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[BirthDate] datetime,
 	[CityName] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
-	[RegionCountryName] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS
+	[RegionCountryName] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[Column_12] int
 ) ON [PRIMARY]
